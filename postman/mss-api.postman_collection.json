@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "e1d5af7c-1af9-4448-913b-9be9f3398da5",
+		"name": "mss-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3803212"
+	},
+	"item": [
+		{
+			"name": "getSpaceships",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/mss-api/spaceships",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"mss-api",
+						"spaceships"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDebrisLocations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/mss-api/debris-locations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"mss-api",
+						"debris-locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getStorageInfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/mss-api/cargo/storage-info",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"mss-api",
+						"cargo",
+						"storage-info"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,17 @@
+version: "2.27.0"
+services:
+  postgres:
+    image: postgres:latest
+    container_name: mss-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD:
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init-dbs.sql:/docker-entrypoint-initdb.d/init-dbs.sql
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
