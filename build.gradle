@@ -23,7 +23,7 @@ dependencies {
     implementation 'org.flywaydb:flyway-core'
     runtimeOnly 'org.postgresql:postgresql'
 
-    implementation 'ch.qos.logback:logback-classic:1.5.6'
+    implementation 'ch.qos.logback:logback-classic:1.4.14'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
